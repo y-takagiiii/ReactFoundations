@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      // idがappの要素を取得
+      const app = document.getElementById('app');
+      // h1要素を作成
+      const header = document.createElement('h1');
+      // h1要素のテキストノードを作成
+      const headerContent = document.createTextNode(
+        'Develop. Preview. Ship. 🚀',
+      );
+      // h1の末尾にテキストを追加
+      header.appendChild(headerContent);
+      // divタグの末尾にh1要素を追加
+      app.appendChild(header);
+    </script>
+  </body>
+</html>
